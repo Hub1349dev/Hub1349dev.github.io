@@ -4,7 +4,13 @@ body {
 }
 h1 {
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    font-weight: bold; /* Set font weight to bold */
-    font-size: 8em; /* Optional: Adjust the font size if needed */
-    text-align: center; /* Optional: Center the text if needed */
+    font-weight: bold;
+    font-size: 8em;
+    text-align: center;
+}
+hr {
+    border: none;
+    height: 1px; /* Adjust the height if needed */
+    background-color: white; /* Adjust the color if needed */
+    outline: 2px solid white; /* Adjust the outline color and width if needed */
 }
