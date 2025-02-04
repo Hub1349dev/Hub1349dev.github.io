@@ -7,6 +7,7 @@ h1 {
     font-weight: bold;
     font-size: 8em;
     text-align: center;
+    margin-bottom: 20px; /* Add margin to move it up */
 }
 hr {
     border: none;
@@ -20,6 +21,6 @@ iframe {
 h2 {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     font-weight: bold;
-    font-size: 2em; /* Smaller font size */
+    font-size: 4em; /* Change font size to 4em */
     text-align: center;
 }
