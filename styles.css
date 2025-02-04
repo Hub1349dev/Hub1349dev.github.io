@@ -17,3 +17,9 @@ hr {
 iframe {
     border: none; /* Remove the border of the iframe */
 }
+h2 {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 2em; /* Smaller font size */
+    text-align: center;
+}
