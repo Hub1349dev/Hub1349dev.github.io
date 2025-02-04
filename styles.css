@@ -2,3 +2,7 @@ body {
     background-color: hsl(285, 90%, 5%);
     color: white;
 }
+h1 {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 300;
+}
