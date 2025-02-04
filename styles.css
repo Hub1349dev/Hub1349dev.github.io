@@ -5,5 +5,6 @@ body {
 h1 {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     font-weight: 300;
-    font-size: 3em; /* Change 3em to the desired size */
+    font-size: 3em;
+    text-align: center;
 }
