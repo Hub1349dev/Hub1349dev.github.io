@@ -4,7 +4,7 @@ body {
 }
 h1 {
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    font-weight: 300;
-    font-size: 10em;
-    text-align: center;
+    font-weight: bold; /* Set font weight to bold */
+    font-size: 8em; /* Optional: Adjust the font size if needed */
+    text-align: center; /* Optional: Center the text if needed */
 }
