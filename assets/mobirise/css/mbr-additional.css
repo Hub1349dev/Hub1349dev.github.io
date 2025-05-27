@@ -1506,3 +1506,83 @@ a {
 .cid-tE8NbTn7SH .mbr-text {
   color: #ffffff;
 }
+/* Sugerencias para tu archivo CSS (ej. assets/mobirise/css/mbr-additional.css) */
+
+/* --- Paleta de Colores y Base (Asegúrate que estas variables estén definidas si las usas) --- */
+:root { /* Define tus colores primarios y secundarios aquí */
+  --background-dark: #1A1A1A;
+  --text-light: #EAEAEA;
+  --text-secondary: #A0A0A0;
+  --primary-accent: #2299aa; /* Color principal de tu tema Mobirise o el que prefieras */
+  --primary-accent-hover: #1c7d8a; /* Un tono más oscuro para el hover del color primario */
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  /* overflow-x: hidden; Ya estaba más abajo, consolidado aquí para limpieza */
+}
+/* --- Estilos para efecto Blur en Navbar y Menú Desplegable --- */
+.cid-tE8FQchStF .dropdown-menu,
+.cid-tE8FQchStF .navbar.opened {
+  /* Para el efecto blur, el fondo debe ser translúcido */
+  background: rgba(36, 36, 36, 0.85) !important; /* Ajusta la opacidad según prefieras */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.cid-tE8FQchStF .nav-item:focus,
+.cid-tE8FQchStF .nav-link:focus {
+  outline: none;
+}
+
+.cid-tE8FQchStF .navbar-short {
+  /* Para el efecto blur, el fondo debe ser translúcido */
+  background: rgba(36, 36, 36, 0.85) !important; /* Fondo semi-transparente */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Para Safari */
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+
+/* --- Mejoras para Iconos Sociales y Footer --- */
+.cid-tE8NbTn7SH .btn-social,
+.cid-tE8NbTn7SH .mbr-section-title {
+  color: #57468b;
+  /* Si usas variables: color: var(--primary-accent); */
+}
+.cid-tE8NbTn7SH .soc-item {
+  width: 44px; /* Ligeramente más grande */
+  height: 44px;
+  border-radius: 8px; /* Más redondeado para un look moderno */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+  margin: 0 8px 8px 8px; /* Espaciado, incluyendo margen inferior para wrap */
+  background: var(--primary-accent, #2299aa); /* Usar variable o fallback */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.cid-tE8NbTn7SH .soc-item span {
+  font-size: 22px; /* Icono un poco más grande */
+  color: var(--text-light, #ffffff) !important;
+  transition: all 0.3s;
+}
+.cid-tE8NbTn7SH .soc-item:hover {
+  background: var(--text-light, #ffffff);
+  transform: translateY(-3px) scale(1.05); /* Efecto hover más notable */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+.cid-tE8NbTn7SH .soc-item:hover span {
+  color: var(--primary-accent, #2299aa) !important;
+}
+@media (max-width: 992px) {
+  .cid-tE8NbTn7SH .align-left,
+  .cid-tE8NbTn7SH .align-right {
+    text-align: center;
+  }
+  .cid-tE8NbTn7SH .mbr-text { /* Para el texto de copyright */
+    margin-bottom: 1.5rem; /* Más espacio entre copyright e iconos en móvil */
+  }
+   .cid-tE8NbTn7SH .social-list {
+     justify-content: center;
+   }
